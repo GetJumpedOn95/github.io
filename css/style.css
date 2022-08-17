@@ -1,0 +1,22 @@
+body {
+	  background-color: lightblue;
+	  font: 18px Arial, sans-serif;
+	  
+}
+
+h1 {
+	text-align: center;
+	    color: white;
+	  font: 42px Arial, sans-serif;
+}
+h2 {
+	text-align: center;
+	color: white;
+	  font: 34px Arial, sans-serif;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	color: navy;
+}
