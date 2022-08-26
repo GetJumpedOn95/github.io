@@ -19,9 +19,15 @@ h3 {
 	color: navy;
 	  font: 25px Arial, sans-serif;
 }
-
 p {
-	text-align: justify;
-	font-size: 20px;
-	color: navy;
+    text-align: justify;
+    Font-size: 20ppx;
+	       color: navy;
+}
+
+body {
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    display:block;
 }
