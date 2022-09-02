@@ -1,28 +1,28 @@
 body {
-	  background-color: lightblue;
+	  background-color: black;
 	  font: 18px Arial, sans-serif;
 	  
 }
 
 h1 {
 	text-align: center;
-	    color: white;
+	    color: orange;
 	  font: 42px Arial, sans-serif;
 }
 h2 {
 	text-align: center;
-	color: white;
+	color: orange;
 	  font: 34px Arial, sans-serif;
 }
 h3 {
 	text-align: center;
-	color: navy;
+	color: orange;
 	  font: 25px Arial, sans-serif;
 }
 p {
     text-align: justify;
     Font-size: 20px;
-	       color: navy;
+	       color: orange;
 }
 
 body {
@@ -31,3 +31,19 @@ body {
     width:70%;
     display:block;
 }
+h4 {
+             text-align: center;
+                 color: orange;
+            font: 42px Arial, sans-serif;
+}
+h5 {
+             text-align: center;
+                color: orange;
+               font: 42px Arial, sans-serif;
+     }
+
+h6 {
+            text-align: center;
+                color: orange;
+               font: 42px Arial, sans-serif;
+     }                                  
