@@ -13,19 +13,45 @@
 <h2>David Ben-Yaakov</h2>
 <h2>Advanced Computer Science II</h2>
 	<h2>August 25, 2022</h2>
-    <p>One of the main features of a https secure connection is that the data is encrypted so that nobody can break it. Another purpose is that it authenticates websites so that it can be verified that they who they claim to be. For example another website claiming to be wikipedia could be detected because the fingerprint from the fake website would not match the real website's fingerprint.</p> 
-
-    <p>A https proxy appliance basically makes https even more secure than it was before. It does this by using firebox to encrypt the information when being sent and decrypt it after reaching its destination.</p>
-
-    <p>A MITM or a man in the middle is an attack where a 3rd party tricks either the user or the website that everything is normal so that they can steal data. This is dangerous because by doing this someone can steal passwords, data, even credit card information.</p> 
-
-    <p>A hash is an algirithom that changes the data to a different and usually shorter string value that maps to the orignal contents. If one character changes in the hash, the hash will not be able to be converted back to the original version. This is used in fingerprints so that if anything changes in the hash it will result in a completely different fingerprint which is easy to detect it is not authentic. To be a good and usable hash, the hash has to be able to able to consistently derive the original value and cannot not be easily hacked."Hashing is the process of transforming any given key or a string of characters into another value. This is usually represented by a shorter, fixed-length value or key that represents and makes it easier to find or employ the original string."(Zola, 2022)</p> 
-
-    <p>The CA or certificate authorities are a real life group that certifies websites by looking for things that prove that they are legitimite. After they have proven this, they sign a document that verifies who they are.</p> 
-
-    <p>SSL intervention is impossible to prevent, but it can be detected later on. SSL interception can be spotted by looking at the fingerprint and seeing if anything has changed. A false positive is when a file or some other thing is labled as malicious when it is actually not. Large companies may use several different fingerprints for different regions. If two different fingerprints are compared from two different regions, then a false positive could be detected for the connection to this company being intercepted. On the other hand false negetives is when a file or something is malicious, but is not caught and therefore unseen.</p>
-
-    <p>I don't think the school/goverment/ISP has the right to spy on us unless they have probable cause. This is because they could just spy on anyone at that point and it seems like an invasion of privacy.</p>
+    
+	   <p>One of the main features of an HTTPS secure connection is that the data is encrypted so that nobody \
+       can break it. Another purpose is that it authenticates websites so that it can be verified that they who t\
+       hey, claim to be. For example, another website claiming to be Wikipedia could be detected because the finger\
+       print from the fake website would not match the real website's fingerprint. “Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer.”(CloudFare, 2022) </p>                            
+                                                                                                             
+       <p>A HTTP proxy appliance basically makes HTTPS even more secure than it was before. It does this by \
+       using firebox to encrypt the information when being sent and decrypt it after reaching its destination. “To put it briefly, an HTTPS proxy is a proxy that uses the HTTP protocol over SSL. The HTTPS protocol has today become the standard for most websites and online services. The reason for this is simple – it ensures a much higher degree of privacy and security.”(Vytautas Kirjazovas, 2022)</p\
+       >                                                                                                          
+                                                                                                             
+       <p>A MITM or a man in the middle is an attack where a 3rd party tricks either the user or the website \
+       that everything is normal so that they can steal data. This is dangerous because by doing this someone can\
+        steal passwords, data, and even credit card information.”A man in the middle (MITM) attack is a general term for when a perpetrator positions himself in a conversation between a user and an application—either to eavesdrop or to impersonate one of the parties, making it appear as if a normal exchange of information is underway.”(Imperva, 2022)</p>                                                  
+                                                                                                              
+<p>A hash is an algirithom that changes the data to a different and usually shorter string value that \
+       maps to the orignal contents. If one character changes in the hash, the hash will not be able to be conver\
+       ted back to the original version. This is used in fingerprints so that if anything changes in the hash it \
+       will result in a completely different fingerprint which is easy to detect it is not authentic. To be a goo\
+       d and usable hash, the hash has to be able to able to consistently derive the original value and cannot no\
+       t be easily hacked."Hashing is the process of transforming any given key or a string of characters into an\
+       other value. This is usually represented by a shorter, fixed-length value or key that represents and makes\
+        it easier to find or employ the original string."(Zola, 2022)</p> 
+                                                                               
+                                                                                                             
+    <p>The CA or certificate authorities are a real-life group that certifies websites by looking for thin\
+       gs that prove that they are legitimate. After they have proven this, they sign a document that verifies wh\
+       o they are. “A certificate authority (CA), also sometimes referred to as a certification authority, is a company or organization that acts to validate the identities of entities (such as websites, email addresses, companies, or individual persons) and bind them to cryptographic keys through the issuance of electronic documents known as digital certificates.”(SSL, 2021)</p>                                                                                            
+                                                                                                              
+   <p>SSL intervention is impossible to prevent, but it can be detected later on. SSL interception can be\
+        spotted by looking at the fingerprint and seeing if anything has changed. “No.  But it CAN be reliably detected because it is NOT POSSIBLE to COMPLETELY spoof ANY security certificate!”(Gibson Research Association, 2020)
+ A false positive is when a file\
+        or some other thing is labeled as malicious when it is actually not. “False negatives are uncaught cyber threats — overlooked by security tooling because they’re dormant, highly sophisticated (i.e. file-less or capable of lateral movement) or the security infrastructure in place lacks the technological ability to detect these attacks”(Fichtner, 2022) Large companies may use several diffe\
+       rent fingerprints for different regions. If two different fingerprints are compared from two different regions, then a false positive could be detected for the connection to this company being intercepted. On the\
+        another hand false negatives are when a file or something is malicious, but is not caught and therefore unse\
+       En.”False positives are mislabeled security alerts, indicating there is a threat when in actuality, there isn’t. These false/non-malicious alerts (SIEM events) increase noise for already over-worked security teams and can include software bugs, poorly written software, or unrecognized network traffic.”(Fichtner, 2022)                                                                     “</p>                 
+                                                                         
+                                                                                                            
+      <p>I don't think the school/government/ISP has the right to spy on us unless they have probable cause. \
+       This is because they could just spy on anyone at that point and it seems like an invasion of privacy.</p> 
 
     <h4>Sources</h4>
     <p><cite>Cloudfare. (2022). "Why use HTTPS?" <A HREF="https://www.cloudflare.com/learning/ssl/why-use-https/">https://www.cloudflare.com/learning/ssl/why-use-https</A></cite></p>
