@@ -1,49 +1,61 @@
 body {
-	  background-color: black;
-	  font: 18px Arial, sans-serif;
-	  
+	    background-color: black;
 }
-
 h1 {
-	text-align: center;
-	    color: orange;
-	  font: 42px Arial, sans-serif;
+      color: orange;
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+      font-family: 'EB Garamond', serif;
 }
 h2 {
-	text-align: center;
-	color: orange;
-	  font: 34px Arial, sans-serif;
+      color: orange;
+      text-align: center;
+      font-size: 18px;
+      font-family: 'EB Garamond', serif;
 }
+
 h3 {
-	text-align: center;
-	color: orange;
-	  font: 25px Arial, sans-serif;
-}
-p {
-    text-align: justify;
-    Font-size: 20px;
-	       color: orange;
+      color: orange;
+      text-align: center;
+      font-size: 18px;
+      font-family: 'EB Garamond', serif;
 }
 
-body {
-    margin-left:auto;
-    margin-right:auto;
-    width:70%;
-    display:block;
-}
 h4 {
-             text-align: center;
-                 color: orange;
-            font: 42px Arial, sans-serif;
+       color: orange;
+       text-align: left;
+       font-weight: bold;
+       margin-left: 8%;
+       font-family: 'EB Garamond', serif;
+       font-size: 18px;
 }
-h5 {
-             text-align: center;
-                color: orange;
-               font: 42px Arial, sans-serif;
-     }
+.hangingindent {
+       padding-left: 22px ;
+       text-indent: -22px ;
+}
 
-h6 {
-            text-align: center;
-                color: orange;
-               font: 42px Arial, sans-serif;
-     }                                  
+p { 
+       color: slategray;
+       margin-left: 8%;
+       text-indent: 4%;
+       max-width: 80%;
+       font-size: 15px;
+       font-family: 'EB Garamond', serif;
+}
+
+.p2 {
+      color: slategray;
+      margin-left: 8%;
+      text-indent: 4%;
+      max-width: 80%;
+      font-size: 17px;
+      font-family: 'EB Garamond', serif;
+}
+
+img {
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+       display: block;
+}
