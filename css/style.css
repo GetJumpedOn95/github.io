@@ -1,29 +1,29 @@
 body {
-	    background-color: black;
+	    background-color:darkgrey ;
 }
 h1 {
-      color: orange;
+      color:maroon;
       font-weight: bold;
       text-align: center;
       font-size: 18px;
       font-family: 'EB Garamond', serif;
 }
 h2 {
-      color: orange;
+      color:maroon;
       text-align: center;
       font-size: 18px;
       font-family: 'EB Garamond', serif;
 }
 
 h3 {
-      color: orange;
+      color: maroon;
       text-align: center;
       font-size: 18px;
       font-family: 'EB Garamond', serif;
 }
 
 h4 {
-       color: orange;
+       color: maroon;
        text-align: left;
        font-weight: bold;
        margin-left: 8%;
@@ -36,7 +36,7 @@ h4 {
 }
 
 p { 
-       color: slategray;
+       color: black;
        margin-left: 8%;
        text-indent: 4%;
        max-width: 80%;
